@@ -1,6 +1,6 @@
 Name:           deepin-voice-recorder
 Version:        1.3.8
-Release:        1%{?dist}
+Release:        2%{?dist}
 Summary:        Deepin Voice Recorder
 License:        GPLv3+
 URL:            https://github.com/linuxdeepin/deepin-voice-recorder
@@ -50,6 +50,9 @@ appstream-util validate-relax --nonet %{buildroot}%{_datadir}/appdata/%{name}.ap
 %{_datadir}/icons/hicolor/*/apps/%{name}.svg
 
 %changelog
+* Mon Mar 04 2019 RPM Fusion Release Engineering <leigh123linux@gmail.com> - 1.3.8-2
+- Rebuilt for https://fedoraproject.org/wiki/Fedora_30_Mass_Rebuild
+
 * Sun Oct 28 2018 Zamir SUN <sztsian@gmail.com> - 1.3.8-1
 - Update to 1.3.8
 

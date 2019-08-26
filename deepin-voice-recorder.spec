@@ -1,6 +1,6 @@
 Name:           deepin-voice-recorder
-Version:        1.3.8
-Release:        3%{?dist}
+Version:        1.4.2
+Release:        1%{?dist}
 Summary:        Deepin Voice Recorder
 License:        GPLv3+
 URL:            https://github.com/linuxdeepin/deepin-voice-recorder
@@ -50,6 +50,9 @@ appstream-util validate-relax --nonet %{buildroot}%{_datadir}/appdata/%{name}.ap
 %{_datadir}/icons/hicolor/*/apps/%{name}.svg
 
 %changelog
+* Mon Aug 26 2019 Zamir SUN <sztsian@gmail.com> - 1.4.2-1
+- Update to 1.4.2
+
 * Wed Aug 07 2019 Leigh Scott <leigh123linux@gmail.com> - 1.3.8-3
 - Rebuild for new ffmpeg version
 
